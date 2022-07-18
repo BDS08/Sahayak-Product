@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/Favicon 2.png" />
+    <title>Sahayak | Product</title>
+    <link rel = "stylesheet" href = "style.css">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+
+    <!--====== Scroll Button ======-->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!--====== NavBar ======-->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><span class="logo_text">SahaYak</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Products</a></li>
+                <div class="btn" id="contact" > 
+                    <button> <a href="#footer">Connect</a> </button>
+                </div>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <!--====== Product Details ======-->
+    <div class = "product">
+        <div class = "category-filter">
+            <div class = "container">
+                <div class = "title">
+                    <h1>Products Page</h1>
+                </div>
+                <form class="form-search" action="" onsubmit="return false" method="get" action="#">
+                    <input type="search" name="search" id="search" placeholder="search..">
+                    <button type="submit">Search</button>   
+                </form>
+        
+                <div class = "filter-btns">
+                    <button type = "button" class = "filter-btn" data-filter="all" id = "all">all</button>
+                    <button type = "button" class = "filter-btn" data-filter="drafter" id = "drafter">Drafter</button>
+                    <button type = "button" class = "filter-btn" data-filter="books" id = "books">Books</button>
+                    <button type = "button" class = "filter-btn" data-filter="others" id = "others">Others</button>
+                </div>
+
+                <div class = "filter-items">
+                    <div class = "filter-item all store-product books">
+                        <div class = "item-img">
+                            <img src = "images/1.jpg" alt = "Item image">
+                            <span class = "discount">Free</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>B.S Grewal</p>
+                            <div>
+                                <span class = "old-price">Rs 949</span>
+                                <span class = "new-price">Free</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all drafter">
+                        <div class = "item-img">
+                            <img src = "images/2.jpg" alt = "Item image">
+                        </div>
+                        <div class = "item-info">
+                            <p>Mini-Drafter</p>
+                            <div>
+                                <span class = "old-price">Rs 400</span>
+                                <span class = "new-price">Rs 50</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all others">
+                        <div class = "item-img">
+                            <img src = "images/3.jpg" alt = "Item image">
+                            <span class = "discount">Free</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Lab Coat</p>
+                            <div>
+                                <span class = "old-price">Rs 00.00</span>
+                                <span class = "new-price">Free</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all books">
+                        <div class = "item-img">
+                            <img src = "images/4.jpg" alt = "Item image">
+                            <span class = "discount">Free</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Materials Science</p>
+                            <div>
+                                <span class = "old-price">Rs 1200</span>
+                                <span class = "new-price">Free</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all others">
+                        <div class = "item-img">
+                            <img src = "images/5.jpg" alt = "Item image">
+                        </div>
+                        <div class = "item-info">
+                            <p>Scientific Calculator</p>
+                            <div>
+                                <span class = "old-price">Rs 699</span>
+                                <span class = "new-price">Rs 100</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all books">
+                        <div class = "item-img">
+                            <img src = "images/6.jpg" alt = "Item image">
+                        </div>
+                        <div class = "item-info">
+                            <p>DSA in C++</p>
+                            <div>
+                                <span class = "old-price">Rs 1950</span>
+                                <span class = "new-price">Rs 350</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all others">
+                        <div class = "item-img">
+                            <img src = "images/7.jpg" alt = "Item image">
+                        </div>
+                        <div class = "item-info">
+                            <p>Table Fan</p>
+                            <div>
+                                <span class = "old-price">Rs 1150</span>
+                                <span class = "new-price">Rs 399</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all others">
+                        <div class = "item-img">
+                            <img src = "images/8.jpg" alt = "Item image">
+                            <span class = "discount">Free</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Night Light</p>
+                            <div>
+                                <span class = "old-price">Rs 200</span>
+                                <span class = "new-price">Free</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all drafter">
+                        <div class = "item-img">
+                            <img src = "images/9.jpg" alt = "Item image">
+                            <span class = "discount">Free</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Drafter</p>
+                            <div>
+                                <span class = "old-price">Rs 460</span>
+                                <span class = "new-price">Free</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all others">
+                        <div class = "item-img">
+                            <img src = "images/10.jpg" alt = "Item image">
+                            <span class = "discount">Free</span>
+                        </div>
+                        <div class = "item-info">
+                            <p>Notes</p>
+                            <div>
+                                <span class = "old-price">Rs 00.00</span>
+                                <span class = "new-price">Free</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all others">
+                        <div class = "item-img">
+                            <img src = "images/11.jpg" alt = "Item image">
+                        </div>
+                        <div class = "item-info">
+                            <p>Workshop Dress</p>
+                            <div>
+                                <span class = "old-price">Rs 999</span>
+                                <span class = "new-price">Rs 100</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+
+                    <div class = "filter-item all books">
+                        <div class = "item-img">
+                            <img src = "images/12.jpg" alt = "Item image">
+                        </div>
+                        <div class = "item-info">
+                            <p>Engineering Drawing</p>
+                            <div>
+                                <span class = "old-price">Rs 899</span>
+                                <span class = "new-price">Rs 85</span>
+                            </div>
+                            <a href = "#" class ="add-btn">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== footer ======-->
+    <section class="footer-area" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="footer-content text-center">
+                        <h2 id="Sahayak">SahaYak</h2>
+                        <h6>B.I.T. Sindri, Dhanbad, Jharkhand, India</h6>
+                        <h6>+01 2345 6789 12<span>|</span>BIT Sindri</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2021-25 <span>SahaYak</span> All Rights Reserved.</p>
+    </footer>
+    
+    <!--====== Added Js Page ======-->
+    <script src = "script.js"></script>
+
+</body>
+</html>
