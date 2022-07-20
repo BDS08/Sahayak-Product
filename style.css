@@ -234,11 +234,11 @@ nav .menu-btn{
         left:0;
     }
     nav .navbar .menu li a{
-        font-size: 1.4375rem;
-        color:var(--black-color);
-        display:block;
-        margin:0.625rem 0;
-        cursor:pointer;
+         font-size: 1.27rem;
+        color: var(--black-color);
+        display: block;
+        margin: 0.2rem 0;
+        cursor: pointer;
     }
    
 }
