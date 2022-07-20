@@ -126,15 +126,6 @@ nav .navbar .menu{
     cursor: pointer;
 }
 
-button a{
-    text-decoration: none;
-    color: var(--white-color);
-}
-button a:hover{
-  color:var(--primary-color);
-  transition:all 0.3s ease;
-}
-
 .btn button:hover{
     background: transparent;
     font-weight: bold;
