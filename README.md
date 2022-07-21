@@ -1,2 +1,3 @@
 # Sahayak-Product!
-![LinkedIn cover - 1](https://user-images.githubusercontent.com/76803084/180267261-a6cbdfc0-41cd-4fc2-8056-209df28579b5.png)
+
+![cover](https://user-images.githubusercontent.com/76803084/180267548-d321c816-1e5f-482f-8c31-8a3ffdcb39d1.png)
