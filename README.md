@@ -33,3 +33,14 @@ alt="Youtube" height="38" width="38" /></a>
 
 <h3 align="left">Mobile View view</h3>
 <img src="https://user-images.githubusercontent.com/76803084/180834537-42d6298c-ae0b-4996-8913-f9425472ddf8.png" alt="Sublime's custom image"/>
+
+
+# How to contribute?
+https://opensource.guide/how-to-contribute/
+
+
+# Thanks to 
+- **[W3Schools]** 
+- **[Freepik]** 
+- **[Netflify]** 
+
