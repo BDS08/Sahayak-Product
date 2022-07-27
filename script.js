@@ -39,15 +39,14 @@ cancelBtn.onclick = function () {
 
 
 //====== Side Navigation Bar Close  ======
-
 let navLinks = document.querySelectorAll(".menu li a");
 for (var i = 0; i < navLinks.length; i++) {
-    navLinks[i].addEventListener("click", function () {
-        navBar.classList.remove("active");
-        menuBtn.style.opacity = "1";
-        menuBtn.style.pointerEvents = "auto";
-        body.style.overflow = "auto";
-    })
+  navLinks[i].addEventListener("click", function () {
+    navBar.classList.remove("active");
+    menuBtn.style.opacity = "1";
+    menuBtn.style.pointerEvents = "auto";
+    body.style.overflow = "auto";
+  })
 }
 
 
